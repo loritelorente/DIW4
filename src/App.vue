@@ -6,6 +6,7 @@
     <ProductoCompra/>
   </div>
   <ProductoDescripcion/>
+  <Pie/>
 </template>
 
 <script>
@@ -14,6 +15,7 @@ import Breadcrumb from './components/Breadcrumb.vue'
 import ProductoImagen from './components/ProductoImagen.vue'
 import ProductoCompra from './components/ProductoCompra.vue'
 import ProductoDescripcion from './components/ProductoDescripcion.vue'
+import Pie from './components/Pie.vue'
 
 export default {
   name: 'App',
@@ -22,7 +24,8 @@ export default {
     Breadcrumb,
     ProductoImagen,
     ProductoCompra,
-    ProductoDescripcion
+    ProductoDescripcion,
+    Pie
   }
 }
 
@@ -37,6 +40,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
+  color: #333;
 }
 
 .dos_columnas {

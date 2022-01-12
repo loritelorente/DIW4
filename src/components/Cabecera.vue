@@ -1,13 +1,15 @@
 <template>
     <header id="Cabecera">
-        <img src="../assets/logo.svg" alt="logo empresa" copyright="c juan jose lorite" id="logo"/>
+        <img src="../assets/logo.svg" alt="logo empresa" copyright="cc-by graphicsprings" id="logo"/>
 
-        <ul>
-            <li><a href="#">INICIO</a></li>
-            <li><a href="#">ORDENADORES</a></li>
-            <li><a href="#">MÓVILES</a></li>
-            <li><a href="#">PERIFÉRICOS</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#">INICIO</a></li>
+                <li><a href="#">ORDENADORES</a></li>
+                <li><a href="#">MÓVILES</a></li>
+                <li><a href="#">PERIFÉRICOS</a></li>
+            </ul>
+        </nav>
 
         <form @submit.prevent="handleEnviar">
             <input type="text" placeholder="Buscar productos...">

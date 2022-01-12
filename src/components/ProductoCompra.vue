@@ -42,6 +42,7 @@ export default {
 <style>
 #producto_compra #titulo {
     font-size:2rem;
+    color: #333;
 }
 
 #producto_compra .precio {
@@ -60,6 +61,7 @@ export default {
     border:none;
     border-radius: 18px;
     padding:1rem;
+
 
 }
 
