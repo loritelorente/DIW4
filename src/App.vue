@@ -7,6 +7,7 @@
   </div>
   <ProductoDescripcion/>
   <Pie/>
+  <Copyright/>
 </template>
 
 <script>
@@ -16,6 +17,7 @@ import ProductoImagen from './components/ProductoImagen.vue'
 import ProductoCompra from './components/ProductoCompra.vue'
 import ProductoDescripcion from './components/ProductoDescripcion.vue'
 import Pie from './components/Pie.vue'
+import Copyright from './components/Copyright.vue'
 
 export default {
   name: 'App',
@@ -25,7 +27,8 @@ export default {
     ProductoImagen,
     ProductoCompra,
     ProductoDescripcion,
-    Pie
+    Pie,
+    Copyright
   }
 }
 
