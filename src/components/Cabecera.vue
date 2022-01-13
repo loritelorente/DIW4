@@ -77,7 +77,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 0 1 30%;
+    flex: 0 1 20%;
 }
 
 #Cabecera form input {
