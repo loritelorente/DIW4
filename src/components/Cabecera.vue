@@ -54,7 +54,6 @@ export default {
 
 #Cabecera ul {
     display: flex;
-    list-style: none;
     margin: 0rem 0.5rem;
     padding: 0;
 }
@@ -62,7 +61,6 @@ export default {
 #Cabecera ul li a {
     color: #333;
     font-weight: 900;
-    text-decoration: none;
     padding-right: 1rem;
     padding-left: 1rem;
 }
@@ -94,7 +92,6 @@ export default {
 }
 
 #Cabecera .carrito {
-    text-decoration: none;
     color: #333;
     border:0.5rem solid transparent;
     flex: 0 1 1%;

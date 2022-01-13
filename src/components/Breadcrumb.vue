@@ -26,8 +26,7 @@ export default {
     align-items: center;
 }
 
-#breadcrumb a {
-    text-decoration: none;
+#breadcrumb a{
     font-size: 1.2rem;
     margin-left: 1rem;
     margin-right:1rem;

@@ -38,6 +38,14 @@ export default {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
 body {
   margin: 0px;
   padding: 0px;

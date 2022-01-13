@@ -50,6 +50,10 @@ export default {
     color: #ff6000;
 }
 
+#producto_descripcion .descripcion ul  {
+    list-style-type:disc;
+}
+
 #producto_descripcion .descripcion ul li {
     margin-bottom: 0.5rem;
 }

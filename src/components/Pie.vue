@@ -59,16 +59,11 @@ export default {
     padding-top: 1rem;
 }
 
-#pie ul {
-    list-style-type: none;
-}
-
 #pie ul li {
     padding-bottom: 1.5rem;
 }
 
 #pie ul li a {
-    text-decoration: none;
     color: #ff6000;
 }
 
