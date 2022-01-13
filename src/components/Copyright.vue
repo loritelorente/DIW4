@@ -26,7 +26,7 @@ export default {
 }
 
 #copyright p {
-    color: #d8d8d8;
+    color: #ff6000;
 }
 
 
