@@ -13,7 +13,7 @@
             <button @click="cambiarContador('1')" type="button" name="button">+</button>
         </form>
 
-        <button class="boton_compra"> <span class="material-icons">shopping_cart</span> AÑADIR A LA CESTA</button>
+        <button class="boton_compra"> <span class="material-icons">add_shopping_cart</span> AÑADIR A LA CESTA</button>
 
     </section>
     

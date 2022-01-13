@@ -21,6 +21,8 @@
             <li><a href="#">INICIAR SESIÓN</a></li>
         </ul>
 
+        <a href="#" class="carrito"><span class="material-icons">shopping_cart</span></a>
+
     </header>
 </template>
 
@@ -75,6 +77,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: 0 1 30%;
 }
 
 #Cabecera form input {
@@ -88,6 +91,20 @@ export default {
     border-radius: 15px;
     border: none;
     cursor:pointer;
+}
+
+#Cabecera .carrito {
+    text-decoration: none;
+    color: #333;
+    border:0.5rem solid transparent;
+    flex: 0 1 1%;
+}
+
+#Cabecera .carrito:hover {
+    color: #ff6000;
+    background-color: #333;
+    border-radius: 30px;
+    border:0.5rem solid #333;
 }
 
 </style>
