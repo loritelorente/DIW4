@@ -17,7 +17,7 @@
         </form>
 
         <ul>
-            <li><a href="#">REGISTRO</a></li>
+            <li><a href="#" id="registro">REGISTRO</a></li>
             <li><a href="#">INICIAR SESIÓN</a></li>
         </ul>
 
@@ -58,18 +58,25 @@ export default {
     padding: 0;
 }
 
+#Cabecera #registro {
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin-right: 0.2rem;
+}
+
 #Cabecera ul li a {
     color: #333;
     font-weight: 900;
-    padding-right: 1rem;
-    padding-left: 1rem;
+    padding: 0.5rem;
 }
 
 #Cabecera ul li a:hover {
     color: #ff6000;
     background-color: #333;
-    border-radius: 10px;
+    border-radius: 5px;
 }
+
+
 
 #Cabecera form {
     display: flex;

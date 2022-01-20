@@ -15,11 +15,9 @@
          </ul>
      </div>
 
-     <div class="video">
-         <video controls="controls" preload="auto" >
+         <video controls="controls" preload="auto" poster="../assets/miniatura.jpg">
              <source src="../assets/video.mp4" type="video/mp4" />
          </video>
-     </div>
 
     </section>
     
@@ -58,9 +56,10 @@ export default {
     margin-bottom: 0.5rem;
 }
 
-#producto_descripcion .video video {
+#producto_descripcion  video {
     padding-top:2rem;
     height:15rem;
+
 }
 
 </style>
