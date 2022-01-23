@@ -6,8 +6,10 @@
     <ProductoCompra/>
   </div>
   <ProductoDescripcion/>
-  <Pie/>
-  <Copyright/>
+  <footer>
+    <Pie/>
+    <Copyright/>
+  </footer>
 </template>
 
 <script>
